@@ -1,0 +1,23 @@
+/*font styles , colors, weight etc. are inherited by HTML tags while tags like 
+  margin, padding border are not
+  These can however be inherited using the inherit keyword as done below*/
+  
+
+div{
+    color:darkslategray;
+    border: 3px solid;
+    padding: 5px;
+}
+
+div p{
+    border:inherit;
+    padding: inherit;
+    background-color: antiquewhite;
+}
+
+/* Whatever is declared further down the stylesheet takes precedent but a more specific tag
+takes precedence over a less specific tag even if it's higer up*/
+
+p{
+    background-color: aqua;
+}

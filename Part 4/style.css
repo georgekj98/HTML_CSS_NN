@@ -1,0 +1,39 @@
+.error{
+    background-color: black;
+    color: red;
+}
+p.error{
+    background-color: black;
+    color: blue;
+}
+p.first{
+    color: aqua;
+    background-color: darkred;
+}
+p.first.second{
+    color: green;
+    background-color: black;
+    border: 3px solid;
+}
+#content{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: gray;
+    
+}
+div p a{
+    background-color: yellowgreen;
+    color: black;
+}
+a[href= "go figure"]{
+    background-color: darkslategrey;
+    color:greenyellow;
+    text-decoration: none;
+}
+/*a[href$ =".com"] checks for ending with .com
+  a[href* =".com"] checks for containing .com
+*/
+
+/*font styles , colors, weight etc. are inherited by HTML tags while tags like 
+  margin, padding border are not*/
+  
+
